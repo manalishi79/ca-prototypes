@@ -6,8 +6,23 @@ Simple prototyping kit to get started, making use of the Citizens Advice Design 
 
 The Javascript is housed within `scripts/app.js`, it's not minified or compiled in any way. It's up to you to manage this currently.
 
-- `$ npm run start` - Will start the server on [localhost:8000](http://localhost:8000)
-- `$ npm compileCSS` - Will compile your `sass` styling for you, feel free to shape this how you'd like in the `styles` directory.
+## Prerquisites
+
+- Install NodeJS & NPM
+
+### Step 1
+
+`$ npm install`
+
+### Step 2
+
+`$ npm run start`
+Will start the server on [localhost:8000](http://localhost:8000)
+
+### Step 3 (optional)
+
+`$ npm compileCSS`
+Will compile your `sass` styling for you, feel free to shape this how you'd like in the `styles` directory.
 
 ## Issues
 
