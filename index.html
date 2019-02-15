@@ -11,23 +11,33 @@
 </head>
 
 <body>
-  <!-- B R A N D   H E A D E R -->
   <header class="c-global-header">
     <div class="c-wrap">
-      <div class="c-global-header__content-wrap">
-        <div class="c-global-header__product-title">
-          <img src="https://citizensadvice.github.io/cads/images/citizens_advice_logo.svg" alt="Citizens Advice logo">
-        </div>
+      <div class="c-global-header__product-title">
+        <img src="images/CIRCEL.png" width=30 height=32>
+  
+        Find a local Citizens Advice
       </div>
     </div>
   </header>
-
-  <!-- Y O U R   C O N T E N T -->
-  <main>
-    <div class="c-wrap">
-      <h1>Drop your content here...</h1>
+  <div class="c-wrap">
+    <div class="o-grid">
+      <div class="o-grid__unit">
+        <h2>Where is your local Citizens Advice</h2>
+  
+        <fieldset class="c-fieldset">
+          <label class="c-label" for="location">
+            Location
+            <span class="c-label__metainfo">Enter postcode or town</span>
+          </label>
+          <div class="c-input">
+            <input id="location" type="text" required>
+          </div>
+        </fieldset>
+        <a class="c-btn c-btn--primary" href="results.html">Send</a>
+      </div>
     </div>
-  </main>
+  </div>
 
   <script src="scripts/app.js"></script>
 </body>
