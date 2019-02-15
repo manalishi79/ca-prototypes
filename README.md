@@ -22,13 +22,14 @@ Simple prototyping kit to get started, making use of the Citizens Advice Design 
 ### Step 2
 
 `$ npm run start`
+
 Will start the server on [localhost:8000](http://localhost:8000)
 
 ### Step 3 (optional)
 
-Open up a new terminal window and run:
 `$ npm run watch:css`
-This will compile your Sass styling for you.
+
+Running the above will compile your sass and watch it for future changes.
 
 ## Issues
 
