@@ -1,0 +1,17 @@
+{
+  "name": "cads-prototyping-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer",
+    "compileCSS": "node-sass --output-style compressed ./styles/app.scss ./styles/app.min.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
