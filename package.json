@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "start": "python -m SimpleHTTPServer",
-    "compileCSS": "node-sass --output-style compressed ./styles/app.scss ./styles/app.min.css"
+    "compile:css": "node-sass --output-style compressed ./styles/app.scss ./styles/app.min.css",
+    "watch:css": "nodemon --watch ./styles --ext scss --exec \"npm run compile:css\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10"
   }
 }

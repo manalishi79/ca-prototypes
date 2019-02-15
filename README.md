@@ -2,13 +2,18 @@
 
 Simple prototyping kit to get started, making use of the Citizens Advice Design System.
 
-## Getting started
-
-The Javascript is housed within `scripts/app.js`, it's not minified or compiled in any way. It's up to you to manage this currently.
-
 ## Prerquisites
 
+- Python 2
 - Install NodeJS & NPM
+
+## Structure
+
+- Your CSS is located in the `styles` directory,
+- The Javascript is housed within `scripts/app.js`, it's not minified or compiled in any way. It's up to you to manage this currently.
+- Your views / pages can live happily in the directory root.
+
+## Getting started
 
 ### Step 1
 
@@ -21,8 +26,9 @@ Will start the server on [localhost:8000](http://localhost:8000)
 
 ### Step 3 (optional)
 
-`$ npm compileCSS`
-Will compile your `sass` styling for you, feel free to shape this how you'd like in the `styles` directory.
+Open up a new terminal window and run:
+`$ npm run watch:css`
+This will compile your Sass styling for you.
 
 ## Issues
 
